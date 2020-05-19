@@ -11,7 +11,6 @@ while row_index < src.count do
   element_index += 1 
  end
  min_array << min_number
- p min_number
  row_index += 1
 end #=> nil
 
