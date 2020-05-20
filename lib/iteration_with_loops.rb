@@ -9,7 +9,6 @@ while row_index < src.count do
   while element_index < src[row_index].count do
   if src[row_index][element_index] < min_number
       min_number = src[row_index][element_index]
-      binding.pry
   end
   element_index += 1 
  end
