@@ -3,7 +3,7 @@ min_array = []
 row_index = 0
 while row_index < src.count do
   element_index = 0 
-  min_number = src[row_index][element_index(-1)] 
+  min_number = src[row_index][element_index] 
   while element_index < src[row_index].count do
     if src[row_index][element_index] < min_number
       min_number = src[row_index][element_index]
